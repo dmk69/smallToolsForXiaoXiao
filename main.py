@@ -1,8 +1,7 @@
 # 此程序需要安装python及xlwings
 # 最后修改 2021/07/24
-# 作者 王德军
-# 著作权归属 赵潇颂
 import xlwings as xw
+
 
 # 将下列数值更改为每页中你需要的行数
 youNeedRow = input('请输入你需要的每页行数,并按回车键：')
