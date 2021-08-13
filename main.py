@@ -11,7 +11,7 @@ filenames = input('请将你的Excel文件绝对位置复制至此,并按回车�
 wb = xw.Book(filenames)
 
 # 将单引号中Sheet0更改为你表格中的表单名称
-sht = wb.sheets['Sheet0']
+sht = wb.sheets[0]
 
 print(wb.fullname)
 # 将数据转义至新的表格
